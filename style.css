@@ -1,0 +1,36 @@
+*{ 
+margin: 0; 
+padding: 0; 
+} 
+h1{ 
+background: linear-gradient(rgb(166,0,255), rgb(132,0,255)); 
+height: 60px; 
+text-align: center; 
+color: white; 
+} 
+h2{ 
+background: linear-gradient(#fff200, rgb(132,0,255)); 
+height: 60px; 
+text-align: center; 
+color: white; 
+padding-top: 20px; 
+} 
+.products{ 
+text-align: center; 
+padding-top: 20px; 
+display: flex; 
+width: 90%; 
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+} 
+.element{ 
+min-width: 300px; 
+flex-basis: 25%; 
+} 
+.element img{ 
+width: 60%; 
+} 
+.element h3{ 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
